@@ -1,0 +1,20 @@
+{
+  "name": "practice1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.6",
+    "pg": "^8.11.5",
+    "y": "^0.3.2"
+  }
+}
